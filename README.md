@@ -80,6 +80,22 @@ A logistic regression model was used to understand which features were **most st
 
 ---
 
+## 📊 Data Visualization
+
+To complement the Python-based analysis, a Power BI dashboard was created to explore the data interactively and visually communicate the insights.
+
+<p align="center">
+  <img src="incidents-analysis.jpg" alt="Power BI Incident Analysis Dashboard" width="800" height="400">
+</p>
+
+The dashboard includes:
+- Total, fatal, and non-fatal incidents
+- Most common injury types and affected body parts
+- Environmental and human factors contributing to injuries
+- Trends over time and filterable slicers for interactivity
+
+--
+
 ## 💡 Key Takeaways
 
 - Certain injury types and affected body parts carry significantly higher fatality risk.
