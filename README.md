@@ -10,6 +10,11 @@ Key steps included:
 - Logistic regression to quantify how different features affect the likelihood of fatality
 - Data Visualization using matplotlib and Power BI to bring insights to life
 
+<p align="center">
+  <img src="construction-image.jpg" alt="Incident Analysis Chart" width="400" height="400">
+</p>
+
+
 ---
 
 ## 📦 Dataset
