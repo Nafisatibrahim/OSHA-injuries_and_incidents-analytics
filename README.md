@@ -85,8 +85,11 @@ A logistic regression model was used to understand which features were **most st
 To complement the Python-based analysis, a Power BI dashboard was created to explore the data interactively and visually communicate the insights.
 
 <p align="center">
-  <img src="incidents-analysis.jpg" alt="Power BI Incident Analysis Dashboard" width="800" height="500">
+  <a href="incidents-analysis.jpg" download>
+    <img src="incidents-analysis.jpg" alt="Power BI Incident Analysis Dashboard" width="800" height="500">
+  </a>
 </p>
+
 
 The dashboard includes:
 - Total, fatal, and non-fatal incidents
@@ -115,6 +118,17 @@ The dashboard includes:
 ---
 
 ## Contact
-
 - Nafisat Ibrahim
+
+- ---
+
+## 📥 Resources & Downloads
+
+Click below to download the project materials:
+
+- 📊 [Download Power BI Report (.pbix)](./OSHA%20Incidents%20Analytics.pbix)
+- 📓 [Download Jupyter Notebook (.ipynb)](./OSHA_Injuries_Analytics.ipynb)
+- 📄 [Download Resources (.txt)](./Resources.txt)
+- 🖼️ [Download Dashboard Image (.jpg)](./incidents-analysis.jpg)
+
 
