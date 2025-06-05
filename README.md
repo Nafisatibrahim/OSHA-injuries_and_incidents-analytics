@@ -4,7 +4,11 @@
 
 This project investigates workplace injuries in the construction industry, with a focus on understanding the **factors associated with fatal outcomes**. Rather than predicting individual cases, the goal is to analyze patterns, explore relationships, and explain what types of injuries or conditions are more likely to result in death.
 
-The work combines exploratory data analysis, statistical testing, and explanatory modeling using logistic regression to uncover key insights that can inform safety practices and injury prevention strategies.
+Key steps included:
+- Exploratory Data Analysis: Injury pattern analysis by body part, nature of injury, and environmental/human/task-related factors
+- Statsistical Testing: A/B testing using Fisher’s Exact Test to compare fatality rates during holidays vs. non-holidays
+- Logistic regression to quantify how different features affect the likelihood of fatality
+- Data Visualization using matplotlib and Power BI to bring insights to life
 
 ---
 
@@ -55,19 +59,19 @@ To evaluate whether holidays are associated with higher fatality rates, a **Fish
 
 ## 🤖 Explanatory Modeling: Logistic Regression
 
-A logistic regression model was used to understand which features were **most strongly associated with fatal injuries**, not to predict future outcomes.
+A logistic regression model was used to understand which features were **most strongly associated with fatal injuries**.
 
 ### ✅ Performance:
 - **ROC AUC = 0.96** → Excellent ability to distinguish between fatal and non-fatal injuries
 
 ### 🔥 Top Features Associated with Fatalities:
-| Feature                            | Coefficient | Odds Ratio |
-|------------------------------------|-------------|------------|
+| Feature                                      | Coefficient | Odds Ratio |
+|----------------------------------------------|-------------|------------|
 | Nature of Injury: Asphyxiation, Drowning     | +2.46       | ~11.7x     |
-| Part of Body: Head                 | +2.14       | ~8.5x      |
-| Part of Body: Whole Body           | +2.02       | ~7.5x      |
-| Part of Body: Internal Injuries    | +1.92       | ~6.8x      |
-| Part of Body: Neck                 | +1.74       | ~5.7x      |
+| Part of Body: Head                           | +2.14       | ~8.5x      |
+| Part of Body: Whole Body                     | +2.02       | ~7.5x      |
+| Part of Body: Internal Injuries              | +1.92       | ~6.8x      |
+| Part of Body: Neck                           | +1.74       | ~5.7x      |
 
 ---
 
