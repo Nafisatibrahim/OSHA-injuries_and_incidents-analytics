@@ -85,7 +85,7 @@ A logistic regression model was used to understand which features were **most st
 To complement the Python-based analysis, a Power BI dashboard was created to explore the data interactively and visually communicate the insights.
 
 <p align="center">
-  <img src="incidents-analysis.jpg" alt="Power BI Incident Analysis Dashboard" width="800" height="800">
+  <img src="incidents-analysis.jpg" alt="Power BI Incident Analysis Dashboard" width="1000" height="400">
 </p>
 
 The dashboard includes:
