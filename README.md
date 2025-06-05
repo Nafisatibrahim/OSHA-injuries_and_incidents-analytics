@@ -11,7 +11,7 @@ Key steps included:
 - Data Visualization using matplotlib and Power BI to bring insights to life
 
 <p align="center">
-  <img src="construction-image.jpg" alt="Incident Analysis Chart" width="400" height="400">
+  <img src="construction-image.jpg" alt="Incident Analysis Chart" width="600" height="400">
 </p>
 
 
