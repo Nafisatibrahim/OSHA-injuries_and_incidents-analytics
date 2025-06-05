@@ -93,5 +93,7 @@ A logistic regression model was used to understand which features were **most st
 
 ---
 
-## 📁 Folder Structure
+## Contact
+
+- Nafisat Ibrahim
 
